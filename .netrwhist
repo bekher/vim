@@ -1,0 +1,10 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =8
+let g:netrw_dirhist_1='/Users/bekher/Downloads/.git/branches'
+let g:netrw_dirhist_2='/Users/bekher/Development/node_chat_tutorial/practice/jquery'
+let g:netrw_dirhist_3='/Users/bekher/Development/node_chat_tutorial/uploads'
+let g:netrw_dirhist_4='/Users/bekher/Development/node_chat_tutorial'
+let g:netrw_dirhist_5='/Users/bekher/Development/node_chat_tutorial/practice'
+let g:netrw_dirhist_6='/Users/bekher/Development/node_chat_tutorial/practice/jquery'
+let g:netrw_dirhist_7='/Users/bekher/__MACOSX'
+let g:netrw_dirhist_8='/Users/bekher/.vim/colors'
