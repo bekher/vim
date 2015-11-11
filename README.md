@@ -6,4 +6,4 @@ My personal .vimrc plus other VIM plugins that I can't live without. Includes Pa
 
 `git clone git://github.com/bekher/vim.git ~/.vim`
 
-`cp ~/.vim/vimrc ~/.vimrc`
+`cp ~/.vim/.vimrc ~/.vimrc`
