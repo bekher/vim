@@ -1,4 +1,5 @@
 set nocompatible
+set mouse=a
 execute pathogen#infect()
 set backspace=indent,eol,start
 syntax enable
@@ -9,39 +10,24 @@ set numberwidth=2
 set foldcolumn=0
 "highlight FoldColumn ctermbg=NONE
 "highlight LineNr ctermbg=NONE
+
+set clipboard=unnamed
 set tabline=1
 set cursorline
 filetype indent on
-"set <PageUp>=<Ctrl-Y>
-"set <PageDown>=<Ctrl-V>
+
 nnoremap <C-Y> <PageUp>
 nnoremap <C-J> <PageDown>
-set term=linux
+set term=xterm
 colo molokai
 set tabstop=4 softtabstop=4 shiftwidth=4 noexpandtab
 set whichwrap+=<,>,h,l
 set showcmd
 set ruler
 set ttyfast
-
 set laststatus=2
-"set statusline=%m\ %f\ 
-
-"set statusline+=%-3.3n\ 
-"set statusline+=[%{strlen(&ft)?&ft:'none'}]\ 
-"set statusline+=[%{strlen(&fenc)?&fenc:&enc}]\ 
-"set statusline+=[%{&fileformat}]\ 
-"set statusline+=%=
-"set statusline+=%5((L%l/%-5L\ C%c\ %p%%)%)\ 
-"set statusline+=L%l/%L\ C%c\ %p%%\ \ 
 
 set t_Co=256
-"hi LineNr ctermfg=lightgray
-"hi CursorLineNr ctermfg=white
-"if version >= 700
-"	  au InsertEnter * hi StatusLine ctermfg=235 ctermbg=2
-"	    au InsertLeave * hi StatusLine ctermbg=19 ctermfg=235
-"	endif
 
 command Q q
 command Wq wq
@@ -68,3 +54,14 @@ let g:airline_detect_modified=1
 let g:airline_detect_paste=1
 let g:airline_theme='zenburn'
 
+inoremap <Esc>Oq 1
+inoremap <Esc>Or 2
+inoremap <Esc>Os 3
+inoremap <Esc>Ot 4
+inoremap <Esc>Ou 5
+inoremap <Esc>Ov 6
+inoremap <Esc>Ow 7
+inoremap <Esc>Ox 8
+inoremap <Esc>Oy 9
+inoremap <Esc>Op 0
+inoremap <Esc>OX =
