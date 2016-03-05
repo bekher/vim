@@ -20,7 +20,7 @@ nnoremap <C-Y> <PageUp>
 nnoremap <C-J> <PageDown>
 set term=xterm
 colo molokai
-set tabstop=4 softtabstop=4 shiftwidth=4 noexpandtab
+set tabstop=4 softtabstop=4 shiftwidth=4 expandtab
 set whichwrap+=<,>,h,l
 set showcmd
 set ruler
