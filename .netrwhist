@@ -1,0 +1,6 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =4
+let g:netrw_dirhist_1='/Applications/Utilities/Adobe Creative Cloud/CCXProcess/CCXProcess.app/Contents/js/node_modules/moment'
+let g:netrw_dirhist_2='/Applications/Utilities/Adobe Creative Cloud/CCXProcess/CCXProcess.app/Contents/js/node_modules/moment/min'
+let g:netrw_dirhist_3='/Applications/Utilities/Adobe Creative Cloud/CCXProcess/CCXProcess.app/Contents/js/node_modules/moment'
+let g:netrw_dirhist_4='/Users/bekher/Documents/UMD-Fall-2015/CMSC499A/bus2/etc'
