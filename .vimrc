@@ -16,6 +16,13 @@ set whichwrap+=<,>,h,l
 set showcmd
 set tabline=1
 set ttyfast
+set ignorecase
+set nostartofline
+set title
+
+" Cmd line completion
+set wildmenu
+set wildmode=longest:full,full
 
 " Spelling
 set complete+=kspell
