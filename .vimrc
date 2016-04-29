@@ -20,6 +20,15 @@ set ignorecase
 set nostartofline
 set title
 
+" Persist undo
+set undofile
+set undodir=$HOME/.vim.undo
+set undolevels=2000
+set undoreload=10000
+
+" Set split
+set splitright splitbelow
+
 " Cmd line completion
 set wildmenu
 set wildmode=longest:full,full
