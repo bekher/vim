@@ -11,6 +11,8 @@ set number
 set numberwidth=2
 set foldcolumn=0
 set foldmethod=syntax
+let g:vim_markdown_folding_disabled = 1
+
 set tabstop=4 softtabstop=4 shiftwidth=4 expandtab
 set whichwrap+=<,>,h,l
 set showcmd
