@@ -41,7 +41,7 @@ autocmd BufRead,BufNewFile *.md setlocal spell
 set nospell spelllang=en_us
 
 " Change term to linux if having keyboard format issues
-set term=xterm
+set term=xterm2
 
 " Copy -> OSX buffer
 set clipboard=unnamed
