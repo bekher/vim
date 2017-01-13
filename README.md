@@ -21,7 +21,7 @@ Credit to the following repo's for their plugins:
 - vim-airline
 - vim-fugitive
 - vim-gitgutter
-- vim-jade
 - vim-javascript
+- vim-jsx
 - molokai theme
 - Monaco for Powerline font
