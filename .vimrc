@@ -102,3 +102,14 @@ inoremap <Esc>OX =
 " For nano fans
 nnoremap <C-Y> <PageUp>
 nnoremap <C-J> <PageDown>
+
+" Parital phonetic Cyrrilic keyboard support
+map и i
+map я q
+map ш w
+map х x
+map А A
+map е e
+map б b
+map д d
+map у u
