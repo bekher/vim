@@ -41,7 +41,7 @@ autocmd BufRead,BufNewFile *.md setlocal spell
 set nospell spelllang=en_us
 
 " Change term to linux if having keyboard format issues
-set term=xterm-256color
+set term=xterm
 
 " Copy -> OSX buffer
 set clipboard=unnamed
@@ -50,17 +50,15 @@ set clipboard=unnamed
 syntax enable
 filetype plugin indent on
 
-" JSX Syntax in .js files
-let g:jsx_ext_required=0
-
 " Theme
-colo molokai
-highlight Normal guibg=black guifg=white
+colo solarized "molokai
+"highlight Normal guibg=black guifg=white
+highlight Normal guibg=darkgrey guifg=darkblue
 set t_Co=256
 set cursorline
 set ruler
 set laststatus=2
-set background=dark
+set background=light
 
 " Statusline
 set statusline+=%#warningmsg#
