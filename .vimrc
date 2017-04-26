@@ -3,7 +3,13 @@ set nocompatible
 set mouse=a
 
 " Bundle up
-execute pathogen#infect()
+call plug#begin('~/.vim/plugs')
+Plug 'https://github.com/vim-airline/vim-airline'
+Plug 'airblade/vim-gitgutter'
+Plug 'vim-syntastic/syntastic'
+Plug 'tpope/vim-fugitive'
+Plug 'vim-airline/vim-airline-themes'
+call plug#end()
 
 " Tabs & etc
 set backspace=indent,eol,start
@@ -40,7 +46,7 @@ set complete+=kspell
 autocmd BufRead,BufNewFile *.md setlocal spell
 set nospell spelllang=en_us
 
-" Change term to linux if having keyboard format issues
+" Change term to screen-256color if having keyboard format issues
 set term=xterm
 
 " Copy -> OSX buffer
@@ -51,14 +57,14 @@ syntax enable
 filetype plugin indent on
 
 " Theme
-colo solarized "molokai
+colo molokai
 "highlight Normal guibg=black guifg=white
 highlight Normal guibg=darkgrey guifg=darkblue
 set t_Co=256
 set cursorline
 set ruler
 set laststatus=2
-set background=light
+set background=dark
 
 " Statusline
 set statusline+=%#warningmsg#

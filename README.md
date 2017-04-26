@@ -8,6 +8,9 @@ My personal .vimrc plus other VIM plugins that I can't live without. Includes Pa
 
 `cp ~/.vim/.vimrc ~/.vimrc`
 
+*On vim load, run the following in the vim terminal:*
+`:PlugInstall`
+
 *To install alternative vimrc (without plugins)*
 
 `git clone git://github.com/bekher/vim.git ~/.vim`
@@ -21,7 +24,5 @@ Credit to the following repo's for their plugins:
 - vim-airline
 - vim-fugitive
 - vim-gitgutter
-- vim-javascript
-- vim-jsx
 - molokai theme
 - Monaco for Powerline font
