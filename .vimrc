@@ -57,14 +57,16 @@ syntax enable
 filetype plugin indent on
 
 " Theme
-colo molokai
+set background=light
+colo solarized
+let g:solarized_termcolors=256
+
 "highlight Normal guibg=black guifg=white
-highlight Normal guibg=darkgrey guifg=darkblue
+highlight Normal guibg=light guifg=darkblue
 set t_Co=256
 set cursorline
 set ruler
 set laststatus=2
-set background=dark
 
 " Statusline
 set statusline+=%#warningmsg#
